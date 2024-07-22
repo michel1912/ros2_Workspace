@@ -17,9 +17,9 @@ code:
 local_variable: skillSuccess  
 imports: from: std_msgs.msg import: Bool
 type: bool
-from_ros_reservice_response: true
 initial_value: False 
 consistency: DB
+from_ros_reservice_response: true
 code: 
 skillSuccess = result.success  
 local_variable: goal_reached  
